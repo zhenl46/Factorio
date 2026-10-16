@@ -1,0 +1,491 @@
+{
+ "W": 13,
+ "H": 13,
+ "machines": [
+  {
+   "type": "Gs",
+   "x": 2,
+   "y": 0,
+   "size": 3
+  },
+  {
+   "type": "Gs",
+   "x": 8,
+   "y": 0,
+   "size": 3
+  },
+  {
+   "type": "Gs",
+   "x": 2,
+   "y": 3,
+   "size": 3
+  },
+  {
+   "type": "Gs",
+   "x": 8,
+   "y": 3,
+   "size": 3
+  },
+  {
+   "type": "Gs",
+   "x": 8,
+   "y": 6,
+   "size": 3
+  },
+  {
+   "type": "Is",
+   "x": 8,
+   "y": 10,
+   "size": 3
+  },
+  {
+   "type": "Fs",
+   "x": 0,
+   "y": 8,
+   "size": 5
+  }
+ ],
+ "beacons": [
+  {
+   "x": 5,
+   "y": 1
+  },
+  {
+   "x": 5,
+   "y": 5
+  }
+ ],
+ "belts": [
+  {
+   "x": 12,
+   "y": 0,
+   "dir": 3
+  },
+  {
+   "x": 12,
+   "y": 2,
+   "dir": 2
+  },
+  {
+   "x": 12,
+   "y": 3,
+   "dir": 2
+  },
+  {
+   "x": 12,
+   "y": 4,
+   "dir": 2
+  },
+  {
+   "x": 0,
+   "y": 5,
+   "dir": 0
+  },
+  {
+   "x": 12,
+   "y": 5,
+   "dir": 3
+  },
+  {
+   "x": 12,
+   "y": 6,
+   "dir": 0
+  },
+  {
+   "x": 6,
+   "y": 8,
+   "dir": 2
+  },
+  {
+   "x": 6,
+   "y": 9,
+   "dir": 1
+  },
+  {
+   "x": 12,
+   "y": 9,
+   "dir": 0
+  },
+  {
+   "x": 12,
+   "y": 10,
+   "dir": 0
+  },
+  {
+   "x": 6,
+   "y": 12,
+   "dir": 0
+  },
+  {
+   "x": 12,
+   "y": 12,
+   "dir": 0
+  }
+ ],
+ "undergrounds": [
+  {
+   "x": 11,
+   "y": 0,
+   "dir": 3,
+   "ox": 6,
+   "oy": 0
+  },
+  {
+   "x": 0,
+   "y": 4,
+   "dir": 0,
+   "ox": 0,
+   "oy": 0
+  },
+  {
+   "x": 11,
+   "y": 5,
+   "dir": 3,
+   "ox": 1,
+   "oy": 5
+  },
+  {
+   "x": 12,
+   "y": 8,
+   "dir": 0,
+   "ox": 12,
+   "oy": 1
+  },
+  {
+   "x": 7,
+   "y": 9,
+   "dir": 1,
+   "ox": 11,
+   "oy": 9
+  },
+  {
+   "x": 6,
+   "y": 10,
+   "dir": 0,
+   "ox": 6,
+   "oy": 4
+  }
+ ],
+ "inserters": [
+  {
+   "x": 1,
+   "y": 0,
+   "dir": 3,
+   "flows": {
+    "drop:green": 84
+   }
+  },
+  {
+   "x": 5,
+   "y": 0,
+   "dir": 3,
+   "flows": {
+    "pick:belt:lane0": 60,
+    "pick:inserter:lane1": 60
+   }
+  },
+  {
+   "x": 11,
+   "y": 1,
+   "dir": 3,
+   "flows": {
+    "pick:belt:lane0": 60,
+    "pick:inserter:lane1": 60
+   }
+  },
+  {
+   "x": 11,
+   "y": 2,
+   "dir": 1,
+   "flows": {
+    "drop:green": 84
+   }
+  },
+  {
+   "x": 1,
+   "y": 4,
+   "dir": 3,
+   "flows": {
+    "drop:green": 84
+   }
+  },
+  {
+   "x": 5,
+   "y": 4,
+   "dir": 3,
+   "flows": {
+    "pick:inserter:lane0": 60,
+    "pick:belt:lane1": 60
+   }
+  },
+  {
+   "x": 7,
+   "y": 4,
+   "dir": 1,
+   "flows": {
+    "pick:inserter:lane0": 60,
+    "pick:belt:lane1": 60
+   }
+  },
+  {
+   "x": 11,
+   "y": 4,
+   "dir": 1,
+   "flows": {
+    "drop:green": 84
+   }
+  },
+  {
+   "x": 11,
+   "y": 6,
+   "dir": 1,
+   "flows": {
+    "drop:green": 84
+   }
+  },
+  {
+   "x": 5,
+   "y": 8,
+   "dir": 1,
+   "flows": {
+    "drop:belt": 180
+   }
+  },
+  {
+   "x": 11,
+   "y": 8,
+   "dir": 3,
+   "flows": {
+    "pick:belt:lane0": 60,
+    "pick:inserter:lane1": 60
+   }
+  },
+  {
+   "x": 5,
+   "y": 10,
+   "dir": 1,
+   "flows": {
+    "drop:belt": 120
+   }
+  },
+  {
+   "x": 7,
+   "y": 10,
+   "dir": 3,
+   "flows": {
+    "drop:inserter": 120
+   }
+  },
+  {
+   "x": 11,
+   "y": 10,
+   "dir": 1,
+   "flows": {
+    "drop:inserter": 180
+   }
+  },
+  {
+   "x": 5,
+   "y": 12,
+   "dir": 3,
+   "flows": {
+    "pick:gear:lane0": 150,
+    "pick:plate:lane1": 150
+   }
+  },
+  {
+   "x": 7,
+   "y": 12,
+   "dir": 1,
+   "flows": {
+    "pick:gear:lane0": 300,
+    "pick:plate:lane1": 300
+   }
+  },
+  {
+   "x": 11,
+   "y": 12,
+   "dir": 3,
+   "flows": {
+    "pick:circuit:lane1": 300
+   }
+  }
+ ],
+ "poles": [],
+ "lanes": {
+  "0,0": [
+   "green",
+   "green",
+   252,
+   168
+  ],
+  "6,0": [
+   "belt",
+   "inserter",
+   0,
+   0
+  ],
+  "11,0": [
+   "belt",
+   "inserter",
+   60,
+   60
+  ],
+  "12,0": [
+   "belt",
+   "inserter",
+   60,
+   60
+  ],
+  "12,1": [
+   "belt",
+   "inserter",
+   60,
+   60
+  ],
+  "12,2": [
+   "green",
+   null,
+   84,
+   0
+  ],
+  "12,3": [
+   "green",
+   "green",
+   84,
+   0
+  ],
+  "0,4": [
+   "green",
+   "green",
+   168,
+   168
+  ],
+  "6,4": [
+   "inserter",
+   "belt",
+   0,
+   0
+  ],
+  "12,4": [
+   "green",
+   "green",
+   168,
+   0
+  ],
+  "0,5": [
+   "green",
+   "green",
+   84,
+   168
+  ],
+  "1,5": [
+   "green",
+   "green",
+   84,
+   168
+  ],
+  "11,5": [
+   "green",
+   "green",
+   84,
+   168
+  ],
+  "12,5": [
+   "green",
+   "green",
+   84,
+   168
+  ],
+  "12,6": [
+   null,
+   "green",
+   0,
+   84
+  ],
+  "6,8": [
+   "belt",
+   "belt",
+   180,
+   0
+  ],
+  "12,8": [
+   "belt",
+   "inserter",
+   120,
+   120
+  ],
+  "6,9": [
+   "belt",
+   "belt",
+   180,
+   0
+  ],
+  "7,9": [
+   "belt",
+   "belt",
+   180,
+   0
+  ],
+  "11,9": [
+   "belt",
+   "belt",
+   180,
+   0
+  ],
+  "12,9": [
+   "belt",
+   "inserter",
+   180,
+   180
+  ],
+  "6,10": [
+   "inserter",
+   "belt",
+   120,
+   120
+  ],
+  "12,10": [
+   null,
+   "inserter",
+   0,
+   180
+  ],
+  "6,12": [
+   "gear",
+   "plate",
+   0,
+   0
+  ],
+  "12,12": [
+   null,
+   "circuit",
+   0,
+   0
+  ]
+ },
+ "pins": {
+  "fg": [
+   6,
+   12
+  ],
+  "circuit": [
+   12,
+   12
+  ],
+  "science": [
+   0,
+   0
+  ],
+  "fg_lanes": [
+   "gear",
+   "plate"
+  ],
+  "circuit_lanes": [
+   null,
+   "circuit"
+  ]
+ },
+ "blueprint": "0eNrlmU2PmzAQhv/KyqdWgpU/+cit6qHXSu2tilZAnNRaYhCYbaMV/70m2WS3CU7HVg8rRcohxPDMO6/HYyDPqKwH2XZKG7R4RqpqdI8WP55Rrza6qKffdLGVaIHqZqN6o6q4r5TUlYzbonpEY4SUXsnfaEHGZYSkNsooeUDsD3YPetiWsrMnREdU0fdyW9ZKb+JtUf1UWsYMRahtentxo6egFsjuRYR29rp7YaN0slKtW4eVYeT2EFet3shuu2Y1VEY9WSnx1n6vp2Dj6Xx7un5Q+smKbbrd4frXIx6h3kz8BR4jxwhxjlDnCBuXo/1EFyZRT5PyWzSJBVYSvyWTeGAl3ZRJItCk9JZMSkJ70llTUrqXnbFEpzFyvVZ7B0+20P9siyPF9JTiuhn0yl51kRU9ZoX/zsp0he7bpjNxKWvzDnPLTrmVsrD7+2VqyUtqdJ+ZQ3/fSrnyr1bilE7+LT0HS0/em3SCT9rN0JVNfFEnZ5mQY4Ed6mulbIUdhgmd45NQPj3nZ3N4GopnIDwLxXMQnnvi8QtdnNPxHF2EihewqU1C+QlIfuqJP66xDGR9FkjPz+l8jp6HWpNDrKHBi5ZgEJ8EmkMoCB+8aIH881Vrt0rZbbppy3RFIO6uFiGze7kxaAeD5gJy74AJIF4zGFdA4R0QuxoTBuSXBIfD7nBX0kvDJ1AETWDmHxAQ70qGuX9A6upvgBlkODweCZlCRrwDps4OC8iPhlfMlXhX8mPBS57gkAkMbzE8aP5eO8y66E385qHIsRAwZGNkCRQrvLApWC1xVfUsN/PmUtC9E8t97eUQvRz72gvDEig2dWFnXeDU214gmHmDExiY+xqcwbjCW3AGmjnv9UZgz3U89S0JAlrJ3H/FQRXn3lZQiGKBvZ2A9QhB/K2YUbyM0C97PL1vWB7eKEzvKU7/pkSoLuz+YX/70kmp78q6qR7vPnz+Gn/79P2jHX6SXb9HiYTmPM8F45Qwq3j8AynMfY0=",
+ "n_sci": 5
+}

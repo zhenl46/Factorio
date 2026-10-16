@@ -1,0 +1,1 @@
+{"machines": [{"type": "Gs", "x": 2, "y": 0}, {"type": "Gs", "x": 2, "y": 3}, {"type": "Gs", "x": 8, "y": 0}, {"type": "Gs", "x": 8, "y": 3}, {"type": "Gs", "x": 8, "y": 6}, {"type": "Fs", "x": 0, "y": 8}, {"type": "Is", "x": 8, "y": 10}], "beacons": [{"x": 5, "y": 1}, {"x": 5, "y": 5}], "belts": [], "undergrounds": [], "inserters": []}
