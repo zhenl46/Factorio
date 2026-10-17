@@ -1,0 +1,87 @@
+{
+ "name": "red",
+ "comment": "Automation science 3.3/s on Vulcanus, plus a gear/copper belt for other blocks. 4 assemblers (4x prod 3) each seeing 2 beacons; gear and copper foundries each see a beacon. Molten iron and copper arrive by pipe. Pins as in the floorplanner (Red 13x16). Gear/copper output rates are placeholders.",
+ "size": [
+  13,
+  16
+ ],
+ "belt": "turbo",
+ "underground_tiers": [
+  "turbo",
+  "express"
+ ],
+ "inserters": [
+  "fast-inserter",
+  "long-handed-inserter"
+ ],
+ "beacon": {
+  "entity": "beacon",
+  "modules": {
+   "speed-module-3": 2
+  },
+  "max": 2
+ },
+ "machines": [
+  {
+   "name": "science",
+   "entity": "assembling-machine-3",
+   "recipe": "automation-science-pack",
+   "count": 4,
+   "modules": {
+    "productivity-module-3": 4
+   },
+   "beacons": 2
+  },
+  {
+   "name": "gears",
+   "entity": "foundry",
+   "recipe": "casting-iron-gear-wheel",
+   "count": 1,
+   "beacons": 1
+  },
+  {
+   "name": "copper",
+   "entity": "foundry",
+   "recipe": "casting-copper",
+   "count": 1,
+   "beacons": 1
+  }
+ ],
+ "pins": [
+  {
+   "name": "liq_fe_in",
+   "side": "bottom",
+   "at": 0,
+   "kind": "pipe",
+   "dir": "in",
+   "fluid": "molten-iron"
+  },
+  {
+   "name": "liq_cu_in",
+   "side": "bottom",
+   "at": 7,
+   "kind": "pipe",
+   "dir": "in",
+   "fluid": "molten-copper"
+  },
+  {
+   "name": "sci_out",
+   "side": "top",
+   "at": 6,
+   "dir": "out",
+   "items": {
+    "automation-science-pack": 3.3
+   }
+  },
+  {
+   "name": "gear_cu_out",
+   "side": "top",
+   "at": 12,
+   "dir": "out",
+   "items": {
+    "iron-gear-wheel": 3.6,
+    "copper-plate": 3.6
+   }
+  }
+ ]
+}

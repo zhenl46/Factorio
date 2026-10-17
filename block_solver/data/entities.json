@@ -1,0 +1,47 @@
+{
+  "_source": "wube/factorio-data (base + space-age entity prototypes). Fluid ports are tile offsets from the machine's top-left tile with the machine facing north; 'dir' is the side the port opens to (0 N, 1 E, 2 S, 3 W). Boxes are listed in prototype order, which is the order recipe fluids are assigned in.",
+  "machines": {
+    "assembling-machine-1": {"size": 3, "boxes": [], "boxes_off_without_fluid_recipe": true},
+    "assembling-machine-2": {"size": 3, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [1, 0], "dir": 0}, {"type": "output", "tile": [1, 2], "dir": 2}]},
+    "assembling-machine-3": {"size": 3, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [1, 0], "dir": 0}, {"type": "output", "tile": [1, 2], "dir": 2}]},
+    "chemical-plant": {"size": 3, "boxes_off_without_fluid_recipe": false,
+      "boxes": [{"type": "input", "tile": [0, 0], "dir": 0}, {"type": "input", "tile": [2, 0], "dir": 0},
+                {"type": "output", "tile": [0, 2], "dir": 2}, {"type": "output", "tile": [2, 2], "dir": 2}]},
+    "oil-refinery": {"size": 5, "boxes_off_without_fluid_recipe": false,
+      "boxes": [{"type": "input", "tile": [1, 4], "dir": 2}, {"type": "input", "tile": [3, 4], "dir": 2},
+                {"type": "output", "tile": [0, 0], "dir": 0}, {"type": "output", "tile": [2, 0], "dir": 0},
+                {"type": "output", "tile": [4, 0], "dir": 0}]},
+    "foundry": {"size": 5, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [1, 4], "dir": 2}, {"type": "input", "tile": [3, 4], "dir": 2},
+                {"type": "output", "tile": [1, 0], "dir": 0}, {"type": "output", "tile": [3, 0], "dir": 0}]},
+    "electromagnetic-plant": {"size": 4, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [0, 2], "dir": 3}, {"type": "input", "tile": [3, 1], "dir": 1},
+                {"type": "output", "tile": [2, 3], "dir": 2}, {"type": "output", "tile": [1, 0], "dir": 0}]},
+    "cryogenic-plant": {"size": 5, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [0, 4], "dir": 2}, {"type": "input", "tile": [2, 4], "dir": 2},
+                {"type": "input", "tile": [4, 4], "dir": 2},
+                {"type": "output", "tile": [0, 0], "dir": 0}, {"type": "output", "tile": [2, 0], "dir": 0},
+                {"type": "output", "tile": [4, 0], "dir": 0}]},
+    "biochamber": {"size": 3, "boxes_off_without_fluid_recipe": true,
+      "boxes": [{"type": "input", "tile": [0, 0], "dir": 0}, {"type": "input", "tile": [2, 0], "dir": 0},
+                {"type": "output", "tile": [2, 2], "dir": 2}, {"type": "output", "tile": [0, 2], "dir": 2}]},
+    "electric-furnace": {"size": 3, "boxes": [], "boxes_off_without_fluid_recipe": true},
+    "centrifuge": {"size": 3, "boxes": [], "boxes_off_without_fluid_recipe": true}
+  },
+  "beacon": {"size": 3, "reach": 3},
+  "inserters": {"inserter": 1, "fast-inserter": 1, "bulk-inserter": 1, "stack-inserter": 1, "burner-inserter": 1,
+                "long-handed-inserter": 2},
+  "belt_tiers": {
+    "transport":  {"belt": "transport-belt", "underground": "underground-belt", "max_distance": 5, "lane_rate": 7.5},
+    "fast":       {"belt": "fast-transport-belt", "underground": "fast-underground-belt", "max_distance": 7, "lane_rate": 15},
+    "express":    {"belt": "express-transport-belt", "underground": "express-underground-belt", "max_distance": 9, "lane_rate": 22.5},
+    "turbo":      {"belt": "turbo-transport-belt", "underground": "turbo-underground-belt", "max_distance": 11, "lane_rate": 30}
+  },
+  "pipe_to_ground_max_distance": 10,
+  "fluidbox_index": {
+    "basic-oil-processing": {"in": {"crude-oil": 2}, "out": {"petroleum-gas": 3}},
+    "simple-coal-liquefaction": {"out": {"heavy-oil": 1}}
+  }
+}

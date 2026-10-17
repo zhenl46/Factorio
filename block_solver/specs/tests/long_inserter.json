@@ -1,0 +1,93 @@
+{
+ "name": "long_inserter",
+ "comment": "An inserter assembler (fixed at the top-left) can only be fed from the three tiles to its right. One belt carries two items, so the third (circuits, one column further out) needs a long-handed inserter.",
+ "size": [
+  6,
+  5
+ ],
+ "belt": "turbo",
+ "underground_tiers": [
+  "turbo"
+ ],
+ "inserters": [
+  "fast-inserter",
+  "long-handed-inserter"
+ ],
+ "blocked": [
+  [
+   0,
+   3
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   5,
+   1
+  ]
+ ],
+ "machines": [
+  {
+   "name": "inserters",
+   "entity": "assembling-machine-3",
+   "recipe": "inserter",
+   "count": 1
+  }
+ ],
+ "pins": [
+  {
+   "name": "fe_gear",
+   "side": "bottom",
+   "at": 4,
+   "dir": "in",
+   "items": {
+    "iron-plate": 3,
+    "iron-gear-wheel": 3
+   }
+  },
+  {
+   "name": "circuits",
+   "side": "bottom",
+   "at": 5,
+   "dir": "in",
+   "items": {
+    "electronic-circuit": 3
+   }
+  },
+  {
+   "name": "out",
+   "side": "left",
+   "at": 4,
+   "dir": "out",
+   "items": {
+    "inserter": 2
+   }
+  }
+ ],
+ "fixed": {
+  "machines": [
+   {
+    "group": "inserters",
+    "x": 0,
+    "y": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pipe_to_ground",
+  "comment": "Molten iron enters at the bottom, the foundry must sit above a blocked row (think rails or another block's belt), so the pipe has to cross it underground.",
+  "size": [9, 10],
+  "belt": "turbo",
+  "underground_tiers": ["turbo"],
+  "inserters": ["fast-inserter"],
+  "blocked": [[0,7],[1,7],[2,7],[3,7],[4,7],[5,7],[6,7],[7,7],[8,7]],
+  "machines": [
+    {"name": "gears", "entity": "foundry", "recipe": "casting-iron-gear-wheel", "count": 1}
+  ],
+  "pins": [
+    {"name": "molten_iron", "side": "bottom", "kind": "pipe", "dir": "in", "fluid": "molten-iron"},
+    {"name": "gears_out", "side": "top", "dir": "out", "items": {"iron-gear-wheel": 5}}
+  ]
+}

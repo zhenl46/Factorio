@@ -1,0 +1,22 @@
+{
+  "name": "green_13x13",
+  "comment": "Logistic science, 3.3/s, Vulcanus. 5 assemblers (4x prod 3) each seeing 2 beacons.",
+  "size": [13, 13],
+  "belt": "turbo",
+  "underground_tiers": ["turbo"],
+  "inserters": ["fast-inserter"],
+  "beacon": {"entity": "beacon", "modules": {"speed-module-3": 2}, "max": 2},
+  "machines": [
+    {"name": "science", "entity": "assembling-machine-3", "recipe": "logistic-science-pack", "count": 5,
+     "modules": {"productivity-module-3": 4}, "beacons": 2},
+    {"name": "inserters", "entity": "assembling-machine-3", "recipe": "inserter", "count": 1,
+     "modules": {"efficiency-module-2": 2}},
+    {"name": "belts", "entity": "foundry", "recipe": "transport-belt", "count": 1,
+     "modules": {"efficiency-module-2": 2}}
+  ],
+  "pins": [
+    {"name": "fe_gear", "side": "bottom", "dir": "in", "items": {"iron-plate": 4.95, "iron-gear-wheel": 4.95}},
+    {"name": "circuits", "side": "bottom", "dir": "in", "items": {"electronic-circuit": 3.3}},
+    {"name": "science_out", "side": "top", "dir": "out", "items": {"logistic-science-pack": 3.3}}
+  ]
+}

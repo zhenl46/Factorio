@@ -1,0 +1,249 @@
+{
+ "name": "weaving",
+ "comment": "Two belts cross a 12-tile wall through a one-tile corridor in opposite directions. The wall is longer than any underground reach, so both need stops inside the corridor, which only works if undergrounds of two tiers weave.",
+ "size": [
+  5,
+  18
+ ],
+ "belt": "turbo",
+ "underground_tiers": [
+  "turbo",
+  "express"
+ ],
+ "inserters": [
+  "fast-inserter"
+ ],
+ "blocked": [
+  [
+   0,
+   3
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   0,
+   6
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   4,
+   6
+  ],
+  [
+   0,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   3,
+   7
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   0,
+   8
+  ],
+  [
+   1,
+   8
+  ],
+  [
+   3,
+   8
+  ],
+  [
+   4,
+   8
+  ],
+  [
+   0,
+   9
+  ],
+  [
+   1,
+   9
+  ],
+  [
+   3,
+   9
+  ],
+  [
+   4,
+   9
+  ],
+  [
+   0,
+   10
+  ],
+  [
+   1,
+   10
+  ],
+  [
+   3,
+   10
+  ],
+  [
+   4,
+   10
+  ],
+  [
+   0,
+   11
+  ],
+  [
+   1,
+   11
+  ],
+  [
+   3,
+   11
+  ],
+  [
+   4,
+   11
+  ],
+  [
+   0,
+   12
+  ],
+  [
+   1,
+   12
+  ],
+  [
+   3,
+   12
+  ],
+  [
+   4,
+   12
+  ],
+  [
+   0,
+   13
+  ],
+  [
+   1,
+   13
+  ],
+  [
+   3,
+   13
+  ],
+  [
+   4,
+   13
+  ],
+  [
+   0,
+   14
+  ],
+  [
+   1,
+   14
+  ],
+  [
+   3,
+   14
+  ],
+  [
+   4,
+   14
+  ]
+ ],
+ "machines": [],
+ "pins": [
+  {
+   "name": "plates_in",
+   "side": "bottom",
+   "at": 1,
+   "dir": "in",
+   "items": {
+    "iron-plate": 10
+   }
+  },
+  {
+   "name": "plates_out",
+   "side": "top",
+   "at": 1,
+   "dir": "out",
+   "items": {
+    "iron-plate": 10
+   }
+  },
+  {
+   "name": "copper_in",
+   "side": "top",
+   "at": 3,
+   "dir": "in",
+   "items": {
+    "copper-plate": 10
+   }
+  },
+  {
+   "name": "copper_out",
+   "side": "bottom",
+   "at": 3,
+   "dir": "out",
+   "items": {
+    "copper-plate": 10
+   }
+  }
+ ]
+}

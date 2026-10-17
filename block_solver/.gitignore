@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+out*.json
+out*.txt
+out*.png
