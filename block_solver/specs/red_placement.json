@@ -1,0 +1,45 @@
+{
+ "comment": "Hand-chosen placement for specs/red.json, following the 13x13 green pattern: science columns either side of a central channel, offset beacons in the channel so the science trunk can pass under them, foundries above their pipe pins.",
+ "machines": [
+  {
+   "group": "science",
+   "x": 2,
+   "y": 0
+  },
+  {
+   "group": "science",
+   "x": 2,
+   "y": 3
+  },
+  {
+   "group": "science",
+   "x": 8,
+   "y": 0
+  },
+  {
+   "group": "science",
+   "x": 8,
+   "y": 3
+  },
+  {
+   "group": "gears",
+   "x": 0,
+   "y": 10
+  },
+  {
+   "group": "copper",
+   "x": 6,
+   "y": 10
+  }
+ ],
+ "beacons": [
+  {
+   "x": 5,
+   "y": 1
+  },
+  {
+   "x": 5,
+   "y": 5
+  }
+ ]
+}

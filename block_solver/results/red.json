@@ -1,0 +1,521 @@
+{
+ "spec": "red",
+ "W": 13,
+ "H": 16,
+ "machines": [
+  {
+   "group": "science",
+   "x": 2,
+   "y": 0,
+   "rot": 0,
+   "size": 3,
+   "rate": 0.63,
+   "c": 630
+  },
+  {
+   "group": "science",
+   "x": 8,
+   "y": 0,
+   "rot": 0,
+   "size": 3,
+   "rate": 0.468,
+   "c": 468
+  },
+  {
+   "group": "science",
+   "x": 2,
+   "y": 3,
+   "rot": 0,
+   "size": 3,
+   "rate": 0.63,
+   "c": 630
+  },
+  {
+   "group": "science",
+   "x": 8,
+   "y": 3,
+   "rot": 0,
+   "size": 3,
+   "rate": 0.63,
+   "c": 630
+  },
+  {
+   "group": "gears",
+   "x": 0,
+   "y": 10,
+   "rot": 0,
+   "size": 5,
+   "rate": 3.972,
+   "c": 3972
+  },
+  {
+   "group": "copper",
+   "x": 6,
+   "y": 10,
+   "rot": 0,
+   "size": 5,
+   "rate": 1.986,
+   "c": 1986
+  }
+ ],
+ "beacons": [
+  {
+   "x": 5,
+   "y": 1
+  },
+  {
+   "x": 5,
+   "y": 5
+  }
+ ],
+ "belts": [
+  {
+   "x": 1,
+   "y": 7,
+   "dir": 1
+  },
+  {
+   "x": 11,
+   "y": 7,
+   "dir": 1
+  },
+  {
+   "x": 12,
+   "y": 7,
+   "dir": 0
+  },
+  {
+   "x": 1,
+   "y": 8,
+   "dir": 0
+  },
+  {
+   "x": 4,
+   "y": 8,
+   "dir": 1
+  },
+  {
+   "x": 5,
+   "y": 8,
+   "dir": 2
+  },
+  {
+   "x": 0,
+   "y": 9,
+   "dir": 0
+  },
+  {
+   "x": 12,
+   "y": 9,
+   "dir": 3
+  },
+  {
+   "x": 5,
+   "y": 15,
+   "dir": 1
+  },
+  {
+   "x": 12,
+   "y": 15,
+   "dir": 0
+  }
+ ],
+ "undergrounds": [
+  {
+   "tier": "express",
+   "x": 6,
+   "y": 4,
+   "dir": 0,
+   "ox": 6,
+   "oy": 0
+  },
+  {
+   "tier": "express",
+   "x": 12,
+   "y": 6,
+   "dir": 0,
+   "ox": 12,
+   "oy": 0
+  },
+  {
+   "tier": "express",
+   "x": 2,
+   "y": 7,
+   "dir": 1,
+   "ox": 10,
+   "oy": 7
+  },
+  {
+   "tier": "express",
+   "x": 0,
+   "y": 8,
+   "dir": 0,
+   "ox": 0,
+   "oy": 1
+  },
+  {
+   "tier": "express",
+   "x": 10,
+   "y": 8,
+   "dir": 3,
+   "ox": 2,
+   "oy": 8
+  },
+  {
+   "tier": "turbo",
+   "x": 5,
+   "y": 9,
+   "dir": 2,
+   "ox": 5,
+   "oy": 14
+  },
+  {
+   "tier": "turbo",
+   "x": 11,
+   "y": 9,
+   "dir": 3,
+   "ox": 1,
+   "oy": 9
+  },
+  {
+   "tier": "turbo",
+   "x": 12,
+   "y": 14,
+   "dir": 0,
+   "ox": 12,
+   "oy": 10
+  },
+  {
+   "tier": "express",
+   "x": 6,
+   "y": 15,
+   "dir": 1,
+   "ox": 11,
+   "oy": 15
+  }
+ ],
+ "inserters": [
+  {
+   "kind": "fast-inserter",
+   "x": 5,
+   "y": 0,
+   "dir": 1,
+   "flows": {
+    "drop:automation-science-pack:1": 88200
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 7,
+   "y": 0,
+   "dir": 3,
+   "flows": {
+    "drop:automation-science-pack:0": 65520
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 11,
+   "y": 0,
+   "dir": 3,
+   "flows": {
+    "pick:iron-gear-wheel:0": 46800,
+    "pick:copper-plate:1": 46800
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 1,
+   "y": 1,
+   "dir": 1,
+   "flows": {
+    "pick:iron-gear-wheel:0": 63000,
+    "pick:copper-plate:1": 63000
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 5,
+   "y": 4,
+   "dir": 1,
+   "flows": {
+    "drop:automation-science-pack:1": 88200
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 7,
+   "y": 4,
+   "dir": 3,
+   "flows": {
+    "drop:automation-science-pack:0": 88200
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 2,
+   "y": 6,
+   "dir": 0,
+   "flows": {
+    "pick:iron-gear-wheel:0": 63000,
+    "pick:copper-plate:1": 63000
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 10,
+   "y": 6,
+   "dir": 0,
+   "flows": {
+    "pick:iron-gear-wheel:0": 63000,
+    "pick:copper-plate:1": 63000
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 4,
+   "y": 9,
+   "dir": 0,
+   "flows": {
+    "drop:iron-gear-wheel:0": 63000
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 10,
+   "y": 9,
+   "dir": 0,
+   "flows": {
+    "drop:copper-plate:1": 532800
+   }
+  },
+  {
+   "kind": "fast-inserter",
+   "x": 11,
+   "y": 10,
+   "dir": 1,
+   "flows": {
+    "drop:copper-plate:1": 63000
+   }
+  },
+  {
+   "kind": "long-handed-inserter",
+   "x": 2,
+   "y": 9,
+   "dir": 0,
+   "flows": {
+    "drop:iron-gear-wheel:0": 532800
+   }
+  }
+ ],
+ "pipes": [
+  {
+   "x": 0,
+   "y": 15
+  },
+  {
+   "x": 1,
+   "y": 15
+  },
+  {
+   "x": 7,
+   "y": 15
+  }
+ ],
+ "pipe_to_ground": [],
+ "pins": {
+  "sci_out": {
+   "x": 6,
+   "y": 0
+  },
+  "gear_cu_out": {
+   "x": 12,
+   "y": 0
+  },
+  "liq_fe_in": {
+   "x": 0,
+   "y": 15
+  },
+  "liq_cu_in": {
+   "x": 7,
+   "y": 15
+  }
+ },
+ "lanes": {
+  "6,0": [
+   "automation-science-pack",
+   "automation-science-pack",
+   153720,
+   176400
+  ],
+  "12,0": [
+   "iron-gear-wheel",
+   "copper-plate",
+   360000,
+   360000
+  ],
+  "0,1": [
+   "iron-gear-wheel",
+   "copper-plate",
+   0,
+   0
+  ],
+  "6,4": [
+   "automation-science-pack",
+   "automation-science-pack",
+   88200,
+   88200
+  ],
+  "12,6": [
+   "iron-gear-wheel",
+   "copper-plate",
+   406800,
+   406800
+  ],
+  "1,7": [
+   "iron-gear-wheel",
+   "copper-plate",
+   0,
+   532800
+  ],
+  "2,7": [
+   "iron-gear-wheel",
+   "copper-plate",
+   469800,
+   469800
+  ],
+  "10,7": [
+   "iron-gear-wheel",
+   "copper-plate",
+   406800,
+   406800
+  ],
+  "11,7": [
+   "iron-gear-wheel",
+   "copper-plate",
+   406800,
+   406800
+  ],
+  "12,7": [
+   "iron-gear-wheel",
+   "copper-plate",
+   406800,
+   406800
+  ],
+  "0,8": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "1,8": [
+   "iron-gear-wheel",
+   "copper-plate",
+   0,
+   532800
+  ],
+  "2,8": [
+   "iron-gear-wheel",
+   "copper-plate",
+   0,
+   532800
+  ],
+  "4,8": [
+   "iron-gear-wheel",
+   null,
+   63000,
+   0
+  ],
+  "5,8": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "10,8": [
+   "iron-gear-wheel",
+   "copper-plate",
+   0,
+   532800
+  ],
+  "0,9": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "1,9": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "5,9": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "11,9": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "12,9": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "12,10": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   63000
+  ],
+  "5,14": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "12,14": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "5,15": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "6,15": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "11,15": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ],
+  "12,15": [
+   "iron-gear-wheel",
+   "copper-plate",
+   63000,
+   0
+  ]
+ },
+ "fluids": {
+  "0,15": "molten-iron",
+  "1,15": "molten-iron",
+  "7,15": "molten-copper"
+ },
+ "shortfall_items_per_s": 0.0,
+ "blueprint": "0eNrlmO1upCAUhu+F39qI4NfcyqZpHKVTsooGsNtJ470vjq3TrqCAfzZpMpmMIs97zgscGd7BuRlIzymT4PQOaNUxAU6/3oGgF1Y20z1WtgScQCkEac8NZZewLasXykiIwBgAymryBk5wfAwAYZJKSmbC7eL6xIb2TLh6INgkBaDvhOrcsUlTAdFDEoCr6veQKBVOKtrfOg+ya8vpuVBUlLCKhH1Z/Vb9qSTtrEzrL3H3vKuHStJXFUzYqt/NZ+Dz8+px9kTZqwq349e5//0KB0DIiX+KxsDQAo0tsbEFjY+j+gQrm2JHm4qfaRPynE34Z9mEPWfTD7MpWWx67gZWq14rZ+LPdRZ/t6YqhZxMpVyZcyElD/+8ENIAjUq6r5LvqFRd3yuUBp4t8DMpVRVfs9MP9ow2DJzoCandRwwaRwx+GTGD+7l16On/FnqxhC4Hfu5CyUsm+o7L8EwauU4EfiSS3RKpqRrguRVr4DBypbvhoSs+NuEjHT729Ca3oiNHOjbRtdZgR3piouc6euJIjz7ohZUzqe+wrvAw1vEzT29gYmV97hv+mq+1575kyVvPiRChqsWEX/hUkw0a6bfX4leFAMjrrUJT1g9SV5jj6IBgZBbsBmlShB6Ki42pT47xEUW/JJGHpLGAYYscsU+O0b7iRo6Jh2RkLKMWOaYHBKHXMGZHXM3XFcsiyfzAzNlS3Mjy333CvmBiKsr5foYo8paD2Kxnzg9BZ8Flr1L4jCGK3QUt9DYyRO6CsdFTi6WI8AFBr4qKkgMvKs3L3SJHn3KzTJwtyY0s7wXnWf2pCikThEvVYlwSkdW2COW23MzE1W2HUGGLXXyx4uLImmsq71obMHS1F9txY1d7sZUNyBZr3B7pdvgYW7sbOXETWy42vj502NQ5XDtu5jx5od1qw/fV1nTsEr6Uqm7UFsNnF/d90fXT+Yt5yzOVIN15UrQDgHsAuAPIvgEe57OO6QRlOc0PQFOqCqrucVKrq1fCxa1/ksYFLookx2mmvsbxLyeH+LU="
+}

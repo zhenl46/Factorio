@@ -1,0 +1,15 @@
+{
+  "name": "pipes_gear_caster",
+  "comment": "One foundry casting gears from molten iron. Tests pipes, rotation and fluid ports.",
+  "size": [7, 8],
+  "belt": "turbo",
+  "underground_tiers": ["turbo"],
+  "inserters": ["fast-inserter"],
+  "machines": [
+    {"name": "gears", "entity": "foundry", "recipe": "casting-iron-gear-wheel", "count": 1}
+  ],
+  "pins": [
+    {"name": "molten_iron", "side": "bottom", "kind": "pipe", "dir": "in", "fluid": "molten-iron"},
+    {"name": "gears_out", "side": "top", "dir": "out", "items": {"iron-gear-wheel": 5}}
+  ]
+}
